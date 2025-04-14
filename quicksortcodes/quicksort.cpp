@@ -27,6 +27,10 @@ int partition(vector<int>& vecinput, int low, int high){
 
     }
     swap(vecinput[j],vecinput[low]);
+    for(int p=0; p<vecinput.size();p++){
+        cout<<vecinput[p]<<" ";
+    }
+    cout<<" ";
     return j;
     
 }
